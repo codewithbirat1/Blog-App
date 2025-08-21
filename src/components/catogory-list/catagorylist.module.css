@@ -1,0 +1,121 @@
+.container {
+  margin-top: 30px;
+}
+.title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 26px;
+}
+.CatagoryList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  width: 100%;
+}
+.category {
+  height: 70px;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: var(--category-bg1, #e3f2fd);
+}
+
+.category:nth-child(1) {
+  background-color: var(--category-bg1, #e3f2fd);
+}
+.category:nth-child(2) {
+  background-color: var(--category-bg2, #ffe0b2);
+}
+.category:nth-child(3) {
+  background-color: var(--category-bg3, #c8e6c9);
+}
+.category:nth-child(4) {
+  background-color: var(--category-bg4, #fff9c4);
+}
+.category:nth-child(5) {
+  background-color: var(--category-bg5, #f8bbd0);
+}
+.category:nth-child(6) {
+  background-color: var(--category-bg6, #d1c4e9);
+}
+:global(.dark) .categorytext {
+  color: #000000 !important;
+}
+.imagecon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 35px;
+}
+.imagecon img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.categorytext {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: var(--softTextColor);
+}
+.link{
+  display: flex;
+  align-items: center;
+  gap:8px;
+}
+
+@media screen and (max-width:1380px) {
+
+.category{
+  width: 20%;
+}
+.imagecon {
+  margin-left: 20px;
+}
+  
+}
+@media screen and (max-width:1280px) {
+
+.category{
+  width: 25%;
+}
+  
+}
+@media screen and (max-width:768px) {
+
+.category{
+  width: 45%;
+}
+  
+}
+@media screen and (max-width:540px) {
+.CatagoryList{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.category{
+  width: 85%;
+}
+.imagecon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 100px;
+}
+.categorytext {
+font-size: 18px;
+}
+  
+}
