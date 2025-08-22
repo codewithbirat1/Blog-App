@@ -112,10 +112,30 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-left: 100px;
+  margin-left: 120px;
+}
+.categorytext {
+font-size: 18px;
+} 
+}
+@media screen and (max-width:470px) {
+
+.imagecon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 70px;
 }
 .categorytext {
 font-size: 18px;
 }
+
+
   
+}
+@media screen and (max-width:370px){
+
+.imagecon{
+   margin-left: 50px;
+}
 }
