@@ -1,0 +1,56 @@
+
+/* Menu Categories*/
+.categoryList{
+    margin-top: 30px;
+    margin-bottom: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 100%;
+    width: 100%;
+}
+.categoryItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 43px;
+    width: calc(33.333% - 14px);
+    min-width: 80px;
+    max-width: 120px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.categoryItem:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.category.travel{
+    background-color: #ff7957bf;
+}
+.food{
+    background-color: #ffb04fb9;
+}
+.fashion{
+    background-color: #6aad73;
+}
+.coding{
+    background-color: #775aecd0;
+}
+.culture{
+    background-color: #ff7887;
+}
+.style{
+    background-color: #789cff;
+}
+.travel{
+    background-color: #d22685b3;
+}

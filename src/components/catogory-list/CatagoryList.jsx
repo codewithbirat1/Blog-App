@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import styles from "@/components/catogory-list/catagorylist.module.css";
+import styles from "./catagorylist.module.css";
 const CatagoryList = () => {
   return (
     <div className={styles.container}>

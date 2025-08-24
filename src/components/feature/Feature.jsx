@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from '@/components/feature/feature.module.css'
+import styles from './feature.module.css'
 const Feature = () => {
   return (
     <div className={styles.container}>

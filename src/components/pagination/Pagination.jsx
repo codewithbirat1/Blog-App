@@ -1,9 +1,12 @@
-import React from 'react'
-import styles from '@/components/pagination/pagination.module.css'
+import React from "react";
+import styles from "./pagination.module.css";
 const Pagination = () => {
   return (
-    <div className={styles.container}>Pagination</div>
-  )
-}
+    <div className={styles.container}>
+      <button className={styles.btn}>Previous</button>
+      <button className={styles.btn}>Next</button>
+    </div>
+  );
+};
 
-export default Pagination
+export default Pagination;

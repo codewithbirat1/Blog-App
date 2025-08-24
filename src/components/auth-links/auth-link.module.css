@@ -9,6 +9,8 @@
     flex-direction: column;
     justify-content: space-between;
     cursor:pointer;
+    z-index: 1001;
+    position: relative;
 }
 .line{
     display: flex;
@@ -18,17 +20,46 @@
 }
 .reponsiveMenu{
     position:fixed;
-    top: 7.4%;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: var(--bg);
+    background-color: rgba(var(--bg-rgb), 0.98);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 35px;
     font-size: 30px;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.reponsiveMenu a {
+    color: var(--textColor);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    position: relative;
+}
+
+.reponsiveMenu a:hover {
+    background-color: rgba(var(--textColorRgb), 0.1);
+    transform: scale(1.05);
 }
 
 

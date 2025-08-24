@@ -1,0 +1,80 @@
+.container {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  background-color: var(--softBg);
+  padding: 120px 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 10px;
+}
+.socialButton{
+    padding: 20px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.icon {
+    border-radius: 4px;
+}
+
+.googleIcon {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background: white;
+    color: #4285f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.socialButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.socialButton:first-child{
+    background-color: coral;
+}
+.socialButton:nth-child(2){
+    background-color: black;
+}
+.socialButton:nth-child(3){
+    background-color: teal;
+}
+
+@media screen and (max-width:768px){
+    .wrapper{
+        padding: 90px 120px;
+        flex-shrink: 1;
+    }
+    .socialButton{
+        padding: 15px;
+       
+    }
+} 
+@media screen and (max-width:540px){
+    .wrapper{
+        padding: 40px 60px;
+        flex-shrink: 1;
+    }
+    .socialButton{
+        padding: 15px;
+        width: max-content;
+    }
+} 

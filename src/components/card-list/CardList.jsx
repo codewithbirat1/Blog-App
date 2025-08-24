@@ -1,7 +1,7 @@
-import React from 'react'
-import Card from '@/components/card/Card'
-import styles from '@/components/card-list/cardlist.module.css'
-import Pagination from '../pagination/Pagination';
+import React from "react";
+import Card from "../card/Card";
+import styles from "./cardlist.module.css";
+import Pagination from "../pagination/Pagination";
 const CardList = () => {
   return (
     <div className={styles.container}>
@@ -10,13 +10,10 @@ const CardList = () => {
         <Card />
         <Card />
         <Card />
-        <Card />
-        <Card />
-
       </div>
-    <Pagination />
+      <Pagination />
     </div>
   );
-}
+};
 
-export default CardList
+export default CardList;
