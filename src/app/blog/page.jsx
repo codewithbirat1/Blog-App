@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './blog.module.css'
+import styles from './blogpage.module.css'
 import CardList from '../../components/card-list/CardList'
 import Menu from '../../components/menu/Menu'
 const BlogPage = () => {
