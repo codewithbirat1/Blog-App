@@ -1,26 +1,6 @@
 # 🚀 Blog-App
 
-<div align="center">
 
-
-[![GitHub stars](https://img.shields.io/github/stars/codewithbirat1/Blog-App?style=for-the-badge)](https://github.com/codewithbirat1/Blog-App/stargazers)
-
-[![GitHub forks](https://img.shields.io/github/forks/codewithbirat1/Blog-App?style=for-the-badge)](https://github.com/codewithbirat1/Blog-App/network)
-
-[![GitHub issues](https://img.shields.io/github/issues/codewithbirat1/Blog-App?style=for-the-badge)](https://github.com/codewithbirat1/Blog-App/issues)
-
-[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-
-[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
-
-**A Next.js blog application built with MongoDB.**
-
-[Live Demo](https://blog-app-rvqd.vercel.app/) |
-[Documentation](TODO: Add documentation link)
-
-</div>
 
 ## 📖 Overview
 
@@ -138,4 +118,5 @@ The application is configured for deployment to Vercel.  Use the Vercel CLI or t
 Made with ❤️ by codewithbirat1
 
 </div>
+
 
